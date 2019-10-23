@@ -14,6 +14,7 @@ Google Page Should Be Open
 Input URL
 	Input CS    ${CS URL}
 	Submit Form
+	Wait Until Page Contains    www.cs.kku.ac.th
 	Close Browser
 
 *** Keywords ***
